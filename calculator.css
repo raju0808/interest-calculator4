@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.raki {
+    display: flex;
+    flex-direction: column; 
+
+}
+  
+
+ 
+
+
+
+.raki p{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    font-size: large;
+    margin-top: 20px;
+    
+    padding: 10px;
+}
+
+
+
+    
+
+.raki h4{
+    text-align: center;
+    font-size: 20px;
+    color:blue;
+    text-decoration: underline;
+    
+    margin-bottom:10px;
+}
+
+.raki input {
+    padding: 10px;
+    margin: 8px ;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.raki button {
+    padding: 10px;
+    margin-top:30px;
+    margin-left: 50%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.raki button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 800px) {
+    .f1 {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .raki input, .raki button {
+        font-size: 14px;
+    }
+}
+@media (min-width:800px) {
+    .f1 {
+        padding: 10px;
+        width: 70%;
+    }
+}
